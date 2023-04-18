@@ -245,8 +245,8 @@ html {
   position: relative;
   padding: 0px 15px 50px;
   /* height: 100vh; */
-  height: 75vh;
-  overflow: scroll;
+  /* height: 75vh;
+  overflow: scroll; */
 }
 .InnerGIGABYTEContent .s03::-webkit-scrollbar {
   display: none;
@@ -311,7 +311,7 @@ html {
 }
 .InnerGIGABYTEContent .s03__tab2-img {
   width: 100%;
-  height: 80vw;
+  height: 40vw;
   /* background-color: beige; */
   border-radius: 15px;
   margin-top: 30px;
@@ -465,7 +465,7 @@ html {
 .InnerGIGABYTEContent .swiper-slide {
   width: 100%;
   /* text-align: center; */
-  background: #fff;
+  /* background: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -560,6 +560,9 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   padding: 20px;
+  /* background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png) no-repeat;
+  background-position: center center;
+  background-size: cover; */
 }
 .InnerGIGABYTEContent .s05__tab-pane,
 .InnerGIGABYTEContent .s08__tab-pane {
@@ -582,6 +585,10 @@ html {
   width: 100%;
   height: auto;
 }
+.InnerGIGABYTEContent .s05_02_img img {
+  width: 70%;
+  height: auto;
+}
 
 .InnerGIGABYTEContent .s05__tab-pane__02__tab-area {
   display: flex;
@@ -594,6 +601,28 @@ html {
 }
 .InnerGIGABYTEContent .s05__tab-pane__inner-pane.active {
   display: block;
+  background: url(/innergigabyteimages2/wave-bg.png);
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.InnerGIGABYTEContent .s05__tab-pane__04__tab-content {
+  background: url(/innergigabyteimages2/s06_bg.png);
+  border-radius: 20px;
+  border: 0;
+  text-align: center;
+}
+.InnerGIGABYTEContent .s05__tab-pane__03__tab-content {
+  background: url(/innergigabyteimages2/s06_bg.png);
+  border-radius: 20px;
+  border: 0;
+  text-align: center;
+}
+.InnerGIGABYTEContent .s06__tab-pane__inner-pane.active {
+  background: url(/innergigabyteimages2/s06_bg.png);
+  border: 0;
+  text-align: center;
 }
 .InnerGIGABYTEContent .s05__tab-pane__02__tab,
 .InnerGIGABYTEContent .s05__tab-pane__03__tab {
@@ -724,6 +753,11 @@ html {
   height: 25vw;
   display: flex;
   margin: 30px 0;
+}
+.InnerGIGABYTEContent .s05__prod__wrapper {
+  width: 100%;
+  height: 25vw;
+  display: flex;
 }
 .InnerGIGABYTEContent .s06__prod__front {
   position: relative;
@@ -862,7 +896,7 @@ html {
 /* ------  s10  ------ */
 .InnerGIGABYTEContent .s10 {
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 5% 0px;
   overflow: hidden;
 }
@@ -998,8 +1032,8 @@ html {
     transform: translate(-2%, 0);
   }
   .InnerGIGABYTEContent .s03__tab2-img {
-    width: 100%;
-    height: 110%;
+    /* width: 100%;
+    height: 110%; */
     /* background-color: beige; */
     border-radius: 15px;
     margin-top: 30px;
@@ -1046,6 +1080,9 @@ html {
     flex-direction: column;
     margin-top: -50px;
   }
+  .InnerGIGABYTEContent .s05__prod__wrapper {
+    flex-direction: column;
+  }
   .InnerGIGABYTEContent .s06__prod__front {
     width: 100%;
   }
@@ -1058,7 +1095,7 @@ html {
   .InnerGIGABYTEContent .s06__prod__cable {
     width: 80%;
     position: absolute;
-    right: 0;
+    right: 3%;
     top: 40%;
     transform: translate(20%, -50%);
   }
@@ -1100,6 +1137,9 @@ html {
     border: 3px solid transparent;
     background: linear-gradient(white, white) padding-box,
       var(--main-blue-gradient) border-box;
+    /* background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png) no-repeat; */
+    background-position: center center;
+    background-size: cover;
   }
   .InnerGIGABYTEContent .s05__tab-pane.active,
   .InnerGIGABYTEContent .s08__tab-pane.active {
@@ -1125,6 +1165,9 @@ html {
     position: relative;
     padding: 13% 0px;
     overflow: hidden;
+    height: 90vh;
+    display: flex;
+    align-items: center;
   }
   .InnerGIGABYTEContent .s09__bg {
     position: absolute;

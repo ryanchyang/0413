@@ -49,6 +49,16 @@
   /* identical to box height, or 159% */
   color: #000000;
 }
+.InnerGIGABYTEContent .p23 {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  line-height: 35px;
+  /* identical to box height, or 159% */
+  color: #000000;
+}
 .InnerGIGABYTEContent .p14 {
   font-family: "Rajdhani";
   font-style: normal;
@@ -143,6 +153,16 @@
     /* identical to box height, or 159% */
     color: #000000;
   }
+  .InnerGIGABYTEContent .p23 {
+    font-family: "Rajdhani";
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1.4rem !important;
+    margin-bottom: 0;
+    line-height: 20px;
+    /* identical to box height, or 159% */
+    color: #000000;
+  }
   .InnerGIGABYTEContent .h2 {
     font-family: "Rajdhani_Bold";
     font-style: normal !important;
@@ -205,6 +225,16 @@
     font-style: normal !important;
     font-weight: 400 !important;
     font-size: 2rem !important;
+    margin-bottom: 0;
+    line-height: 35px;
+    /* identical to box height, or 159% */
+    color: #000000;
+  }
+  .InnerGIGABYTEContent .p23 {
+    font-family: "Rajdhani";
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1.7rem !important;
     margin-bottom: 0;
     line-height: 35px;
     /* identical to box height, or 159% */
